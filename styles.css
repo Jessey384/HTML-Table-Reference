@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Oswald;
+    src: url(/Resources/Fonts/Oswald-Regular.ttf);
+}
+
+* {
+    background-color: #990000;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+#top-header {
+    font-family: Oswald;
+    display: inline;
+    font-size: 48px;
+    margin: 0%;
+}
+
+#main-header {
+    background-color: #660000;
+    font-size: 48px;
+    margin-top: 10px;
+    outline: solid #660000 8px;
+    font-family: Impact, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.dot {
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    background-color: black;
+}
+
+.dot-1 {
+    position: relative;
+    top: -15px;
+    right: -12px;
+    
+}
+
+.dot-2 {
+    position: relative;
+    top: -13px;
+    left: 14.5em;
+    
+}
+
+html {
+    border: solid #330000 11px;
+    height: 947px;
+}
+
+h2 {
+    background-color: #B22222;
+    border-top: solid black 4px;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    display: inline;
+    padding: 6px;
+    font-size: 36px;
+    position: relative;
+    bottom: 1px;
+}
+
+table {
+    border: solid black 4px;
+    color: black;
+    background-color: #B22222;
+    font-size: 21px;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td {
+    background-color: #B22222;
+    text-align: start;
+}
+
+th {
+    background-color: #B22222;
+}
+
+.border-right {
+    border-right: solid black 3px;
+}
+
+.border-bottom {
+    border-bottom: solid black 3px;
+}
+
+h4 {
+    color: black;
+    font-weight: 600;
+    display: inline;
+    font-size: 18px;
+}
+
+h4:hover {
+    color: white;
+    background-color: black;
+    padding: 3px;
+    transition-delay: 300ms, 300ms;
+    transition: 800ms;
+}
+
+embed {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 320px;
+}
